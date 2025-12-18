@@ -1,0 +1,9 @@
+import torch
+# 查看PyTorch版本
+print("PyTorch版本：", torch.__version__)
+# 检查CUDA是否可用（关键！）
+print("CUDA是否可用：", torch.cuda.is_available())
+# 查看CUDA版本
+print("CUDA版本：", torch.version.cuda)
+import torchvision
+print("Torchvision版本：", torchvision.__version__)
